@@ -10,7 +10,7 @@ import ec.edu.ups.EVABravoCarmenSRV.Model.Libro;
 
 
 @Stateless
-public class LibroON {
+public class LibroON implements LibroONLOCAL, LibroRemote{
 	@Inject
 	private LibroDAO libroDao;
 		
